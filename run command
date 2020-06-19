@@ -1,0 +1,8 @@
+Train.py:
+$ python train.py --dataset gtsrb-german-traffic-sign \
+	--model output/trafficsignnet.model --plot output/plot.png
+
+predict.py:
+$ python predict.py --model output/trafficsignnet.model \
+	--images gtsrb-german-traffic-sign/Test \
+	--examples examples
